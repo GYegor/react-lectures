@@ -10,8 +10,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
  ## Выполнено:
 
+ * Добавлены компоненты в папке `react-lectures/react-hooks/src/components/Building reusable React (Cassidy Williams)/`
  * Код переведен на Typescript
- * Добавлены компоненты в папке `Building reusable React (Cassidy Williams)`
  * Использованы scss модули
  * Code-style
  * Выполнены задания по рефакторингу (описание находится внутри комментариев в компонентах)
