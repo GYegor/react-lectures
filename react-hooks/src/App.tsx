@@ -11,14 +11,21 @@ import { KnownWidthOnDemand } from './components/KnownWidthOnDemand/KnownWidthOn
 import { NotSoSimpleCounter } from './components/NotSoSimpleCounter/NotSoSimpleCounter';
 import { SimpleCounter } from './components/SimpleCounter/SimpleCounter';
 import { SimpleTooltip } from './components/SimpleTooltip/SimpleTooltip';
+import { EmailSignup } from './components/Building reusable React (Cassidy Williams)/EmailSignup/EmailSignup';
+import { ToggleableFormContainer } from './components/Building reusable React (Cassidy Williams)/ToggleableForm/ToggleableForm';
 
-import './App.css';
+import './App.scss';
+import RefactorWithUseReduser from './components/Building reusable React (Cassidy Williams)/RefactorWithUseReduser/RefactorWithUseReduser';
 
 function App() {
   return (
     <div className="App">
+      {/* <EmailSignup /> */}
+      <ToggleableFormContainer />
+      {/* <RefactorWithUseReduser /> */}
+
       {/* useState */}
-      <SimpleCounter />
+      {/* <SimpleCounter /> */}
 
       {/* useEffect */}
       {/* <CounterWithLogger /> */}
